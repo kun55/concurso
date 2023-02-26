@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Juego de Ruleta</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<nav>
+<a href="/" aria-current="page">Home</a>
+</nav>
+<body>
+  <h1>Contador-Xk</h1>
+  <center>
+  <span id="valor">0</span>
+  <h1>Juego de Ruleta</h1>
+  <p>Elige un número y apuesta tus fichas</p>
+  <label for="numero">Número:</label>
+  <input type="number" id="numero"min=1 max=37>
+  <p>
+  <label for="fichas">Fichas:</label>
+  <input type="number" id="fichas"min=1 max=100>
+  <p>
+  <button onclick="jugar()">Jugar</button>
+  <p id="mensaje"></p>
+  <p id="resultado"></p>
+  <script src="script.js"></script>
+  </center>
+</body>
+</html>
